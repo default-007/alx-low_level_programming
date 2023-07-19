@@ -2,7 +2,7 @@
 /**
  * Print_alphabet_x10 -Function tat will print the alphabet 10 times
  *
- */
+*/
 
 void print_alphabet_x10(void)
 {
