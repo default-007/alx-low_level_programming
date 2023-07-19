@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * Print_alphabet_x10 -Function tat will print the alphabet 10 times
+ * print_alphabet_x10 -Function tat will print the alphabet 10 times
  *
 */
 
