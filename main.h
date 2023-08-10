@@ -2,7 +2,9 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
-void positive_or_negative(int i);
+int _putchar(char c);
+void *malloc_checked(unsigned int b);
 
-#endif /* MAIN_H */
+#endif/*MAIN_H*/
