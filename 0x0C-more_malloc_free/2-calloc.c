@@ -14,15 +14,15 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *qwe;
-	unsigned int boi;
+	char *a;
+	unsigned int b;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	qwe = malloc(nmemb * size);
-	if (qwe == NULL)
+	a = malloc(nmemb * size);
+	if (a == NULL)
 		return (NULL);
-	for (boi = 0; boi < (nmemb * size); boi++)
-		qwe[boi] = 0;
-	return (qwe);
+	for (b = 0; b < (nmemb * size); b++)
+		a[b] = 0;
+	return (a);
 }
